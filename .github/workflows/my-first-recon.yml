@@ -1,0 +1,10 @@
+name: manually created
+on:
+ workflow_dispatch:
+
+jobs:
+ recon-misson:
+   runs-on: ubuntu-22.04
+   steps
+    - name: Print Welcome
+      run: echo "hello"
